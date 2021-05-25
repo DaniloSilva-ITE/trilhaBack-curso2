@@ -107,8 +107,9 @@ namespace certificacao_csharp_roteiro
                 new MenuItem("Usando Dynamic", typeof(UsandoDynamic)),
                 new MenuItem("Conversões de Dynamic", typeof(ConversoesDeDynamic)),
                 new MenuItem("Resolucão de Sobrecarga", typeof(ResolucaoSobrecarga)),
-                //new MenuItem("Usando ExpandObject", typeof(UsandoExpandObject)),
-                //new MenuItem("Interoperabilidade COM", typeof(InteropCOM))                
+                
+                new MenuItem("Usando ExpandObject", typeof(UsandoExpandObject)),
+                new MenuItem("Interoperabilidade COM", typeof(InteropCOM))                
             };
         }
     }
